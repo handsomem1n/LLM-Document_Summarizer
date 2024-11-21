@@ -4,6 +4,10 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingA
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 import json
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 # 환경 변수 설정 (병렬 처리 경고 비활성화)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"

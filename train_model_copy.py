@@ -4,7 +4,10 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingA
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 import json
+from dotenv import load_dotenv
 
+
+load_dotenv()
 # 환경 변수 설정 (병렬 처리 경고 비활성화)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -33,23 +36,31 @@ def setup_model():
     
     # 토크나이저 로드
     # config = BitsAndBytesConfig(load_in_4bit = True)
-    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, device_map="cuda:1", token=os.environ['TOKEN_2'])
+    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, device_map="auto", token=os.environ['TOKEN_2'])
     tokenizer.add_special_tokens({"pad_token": tokenizer.eos_token})  # pad_token 설정
 
     # 모델 로드
     model = AutoModelForCausalLM.from_pretrained(
         BASE_MODEL,
-        device_map="cuda:1",  # 두 번째 GPU로 할당
+        device_map="auto",  # 두 번째 GPU로 할당
         # quantization_config=config,
         token=os.environ['TOKEN_2']
     )
 
     # PEFT 설정: LoRA 어댑터 추가
     lora_config = LoraConfig(
-        r=8,
-        lora_alpha=8,
+        r=16,
+        lora_alpha=32,
         lora_dropout=0.05,
-        target_modules=["q_proj", "o_proj", "k_proj", "v_proj", "gate_proj", "up_proj", "down_proj"],
+        target_modules=[
+            "q_proj", 
+            # "o_proj", 
+            # "k_proj", 
+            "v_proj", 
+            # "gate_proj", 
+            # "up_proj", 
+            # "down_proj"
+            ],
         bias="none",
         task_type="CAUSAL_LM",
     )
@@ -98,7 +109,7 @@ def train_model():
 
     # Trainer 설정
     trainer = Trainer(
-        model=model,
+        model=torch.nn.DataParallel(model),
         args=training_args,
         train_dataset=tokenized_prompts,
         data_collator=data_collator  # DataCollatorForLanguageModeling 사용
