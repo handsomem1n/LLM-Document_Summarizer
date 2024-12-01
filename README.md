@@ -14,11 +14,16 @@ https://docs.google.com/document/d/1tHiq3sEC5yZGHqS-dzPCmKq3KNqNYSrCsTiAUUrtL2U/
 
 이 프로젝트는 PDF 파일의 텍스트를 추출하고 LLM(Large Language Model)을 활용하여 요약문을 생성하며 검색 가능한 요약 데이터를 저장하는 파이프라인을 제공합니다. RAG(Retrieval-Augmented Generation) 기법을 통해 효율적인 검색 및 응답 기능을 구현합니다.
 
-diagram을 통해 작동방식을 이해할 수 있을 것입니다.
+자세한 작동 방식은 diagram을 참고하세요.
+
 #workflow
 <img width="171" alt="image" src="https://github.com/user-attachments/assets/9d78216d-08e1-44c4-9208-b71281247509">
+
+
 #DFD
 <img width="280" alt="image" src="https://github.com/user-attachments/assets/200489ab-0caa-4c88-93be-64130e28b477">
+
+
 
 #Sequence Diagram
 <img width="852" alt="image" src="https://github.com/user-attachments/assets/eef9831b-9a79-403a-838e-d6f3e61c2a65">
