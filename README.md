@@ -76,6 +76,10 @@ python rag_service.py
 | Llama3.1 - 8B   | 0.1306 | 0.6906    | 뉴스        |
 | Llama3.2 - 3B   | 0.2618 | 0.7466    | 보고서      |
 
+
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/c0bbc6c8-0507-48fe-9cbb-75dd4b67a287">
+
+
 ## 🛠️ 기술 스택
 언어: Python
 모델: Llama3.2 (LoRA 적용)
