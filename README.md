@@ -16,16 +16,16 @@ https://docs.google.com/document/d/1tHiq3sEC5yZGHqS-dzPCmKq3KNqNYSrCsTiAUUrtL2U/
 
 자세한 작동 방식은 diagram을 참고하세요.
 
-#workflow
+## workflow
 <img width="171" alt="image" src="https://github.com/user-attachments/assets/9d78216d-08e1-44c4-9208-b71281247509">
 
 
-#DFD
+## DFD
 <img width="280" alt="image" src="https://github.com/user-attachments/assets/200489ab-0caa-4c88-93be-64130e28b477">
 
 
 
-#Sequence Diagram
+## Sequence Diagram
 <img width="852" alt="image" src="https://github.com/user-attachments/assets/eef9831b-9a79-403a-838e-d6f3e61c2a65">
 
 
