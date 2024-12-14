@@ -5,28 +5,24 @@ LLM기반 전자문서 요약 자동 생성 모델 - 국민대학교x가톨릭�
 2024/10/26 ~ 2024/11/30
 
 # 구성원
-국민대학교 학부생 5명 / 가톨릭관동대 석사생 2명
+국민대학교 학부생 5명 - Llama3.2 3B instruct Model 담당
+가톨릭관동대 석사생 2명 - Llama3.1 8B instruct Model 담당
 
-# Google Sheets
-https://docs.google.com/document/d/1tHiq3sEC5yZGHqS-dzPCmKq3KNqNYSrCsTiAUUrtL2U/edit?tab=t.0#heading=h.iawpo9iikzbl
+# Branch 설명
+- deployment가 최종적이며, 해당 Branch에는 자체 내부적으로 선정한 모델 - Llama3.2 3B Instruct입니다. 
 
 # **자동화된 PDF 요약 및 검색 시스템**
 
-이 프로젝트는 PDF 파일의 텍스트를 추출하고 LLM(Large Language Model)을 활용하여 요약문을 생성하며 검색 가능한 요약 데이터를 저장하는 파이프라인을 제공합니다. RAG(Retrieval-Augmented Generation) 기법을 통해 효율적인 검색 및 응답 기능을 구현합니다.
+이 프로젝트는 PDF 파일의 텍스트를 추출하고 LLM(Large Language Model)을 활용하여 요약문을 생성하며 검색 가능한 요약 데이터를 저장하는 파이프라인을 제공합니다. RAG(Retrieval-Augmented Generation) 기법을 통해 효율적인 검색 및 응답 기능을 구현하였습니다.
 
-자세한 작동 방식은 diagram을 참고하세요.
+자세한 작동 방식은 아래의 diagram을 참고하세요.
 
-## workflow
-<img width="171" alt="image" src="https://github.com/user-attachments/assets/9d78216d-08e1-44c4-9208-b71281247509">
+# System Design Diagrams
 
+| Workflow | Data Flow Diagram (DFD) | Sequence Diagram |
+|----------|--------------------------|------------------|
+| ![Workflow](https://github.com/user-attachments/assets/9d78216d-08e1-44c4-9208-b71281247509) | ![DFD](https://github.com/user-attachments/assets/200489ab-0caa-4c88-93be-64130e28b477) | ![Sequence Diagram](https://github.com/user-attachments/assets/eef9831b-9a79-403a-838e-d6f3e61c2a65) |
 
-## DFD
-<img width="280" alt="image" src="https://github.com/user-attachments/assets/200489ab-0caa-4c88-93be-64130e28b477">
-
-
-
-## Sequence Diagram
-<img width="852" alt="image" src="https://github.com/user-attachments/assets/eef9831b-9a79-403a-838e-d6f3e61c2a65">
 
 
 
