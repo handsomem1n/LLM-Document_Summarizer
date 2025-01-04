@@ -37,7 +37,7 @@ def setup_model():
     BASE_MODEL = "meta-llama/Llama-3.2-3B-Instruct"
     
     # 토크나이저 로드
-    # config = BitsAndBytesConfig(load_in_4bit = True)
+    config = BitsAndBytesConfig(load_in_4bit = True)
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, device_map="cuda", token="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")
     tokenizer.add_special_tokens({"pad_token": tokenizer.eos_token})  # pad_token 설정
 
@@ -45,7 +45,7 @@ def setup_model():
     model = AutoModelForCausalLM.from_pretrained(
         BASE_MODEL,
         device_map="cuda",  # 두 번째 GPU로 할당
-        # quantization_config=config,
+        quantization_config=config,
         token="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"
     )
 
