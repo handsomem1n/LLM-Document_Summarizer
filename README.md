@@ -1,5 +1,5 @@
 # LLM-Document_Summarizer
-LLM기반 전자문서 요약 자동 생성 모델 - 국민대학교x가톨릭관동대학교 대학원
+LLM기반 경량화 기법을 적용한 전자결재 문서 생성 요약
 
 # 프로젝트 기간
 2024/10/26 ~ 2024/11/30
@@ -9,7 +9,7 @@ LLM기반 전자문서 요약 자동 생성 모델 - 국민대학교x가톨릭�
 가톨릭관동대 석사생 2명 - Llama3.1 8B instruct Model 담당
 
 # Branch 설명
-- deployment가 최종적이며, 해당 Branch에는 자체 내부적으로 선정한 모델 - Llama3.2 3B Instruct입니다. 
+- deployment가 최종 레포지토리이며, 해당 Branch에는 가장 우수한 성능을 보인 모델 - Llama3.2 3B Instruct입니다.
 
 ---
 
