@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+langchain
+ollama
+langchain-community
+chromadb
+unstructured
+# python-magic-bin
