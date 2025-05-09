@@ -12,6 +12,10 @@ LLM기반 경량화 기법을 적�
 - deployment가 최종 레포지토리이며, 해당 Branch에는 가장 우수한 성능을 보인 모델 - Llama3.2 3B Instruct입니다.
 
 ---
+# 시연 자료 - 테스트 가이드
+[llama3.2-3B-테스트가이드.pdf](https://github.com/user-attachments/files/20116361/llama3.2-3B-.pdf)
+
+---
 
 ## **📌 주요 기능**
 1. **PDF 파일 처리**  
@@ -80,6 +84,5 @@ python rag_service.py
 | ![Workflow](https://github.com/user-attachments/assets/9d78216d-08e1-44c4-9208-b71281247509) | ![DFD](https://github.com/user-attachments/assets/200489ab-0caa-4c88-93be-64130e28b477) | ![Sequence Diagram](https://github.com/user-attachments/assets/eef9831b-9a79-403a-838e-d6f3e61c2a65) |
 
 
-# 테스트 가이드
-[llama3.2-3B-테스트가이드.pdf](https://github.com/user-attachments/files/20116361/llama3.2-3B-.pdf)
+
 
