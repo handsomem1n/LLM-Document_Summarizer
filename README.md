@@ -1,6 +1,10 @@
 # LLM-Document_Summarizer
 LLM기반 경량화 기법을 적용한 전자결재 문서 생성 요약
 
+# 논문
+해당 프로젝트는 연구로서의 가치를 인정받아 논문을 투고로 이어졌고, DBpia에서 열람 가능합니다.
+Link : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132735
+
 # 프로젝트 기간
 2024/10/26 ~ 2024/11/30
 
