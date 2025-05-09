@@ -78,3 +78,8 @@ python rag_service.py
 | Workflow | Data Flow Diagram (DFD) | Sequence Diagram |
 |----------|--------------------------|------------------|
 | ![Workflow](https://github.com/user-attachments/assets/9d78216d-08e1-44c4-9208-b71281247509) | ![DFD](https://github.com/user-attachments/assets/200489ab-0caa-4c88-93be-64130e28b477) | ![Sequence Diagram](https://github.com/user-attachments/assets/eef9831b-9a79-403a-838e-d6f3e61c2a65) |
+
+
+# 테스트 가이드
+[llama3.2-3B-테스트가이드.pdf](https://github.com/user-attachments/files/20116361/llama3.2-3B-.pdf)
+
