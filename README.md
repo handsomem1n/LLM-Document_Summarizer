@@ -7,8 +7,8 @@ LLM기반 경량화 기법을 적�
 Link : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132735
 
 # Introduction
-<img width="1151" alt="image" src="<img width="1148" alt="image" src="https://github.com/user-attachments/assets/7c6ceeb9-a04f-4091-853e-ac9794bd2992" />
-" />
+<img width="1148" alt="image" src="https://github.com/user-attachments/assets/7c6ceeb9-a04f-4091-853e-ac9794bd2992" />
+
 
 # Research Background
 <img width="1147" alt="image" src="https://github.com/user-attachments/assets/c2b8546c-17d3-4fe1-835c-0d5f574553c3" />
@@ -17,8 +17,7 @@ Link : https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132735
 <img width="1146" alt="image" src="https://github.com/user-attachments/assets/c29570db-a0b8-46a3-80dd-ef44ba2c4bb2" />
 
 # Lightweight Model Optimization
-<img width="1149" alt="image" src="<img width="1145" alt="image" src="https://github.com/user-attachments/assets/d54f2908-4738-4d92-9694-f89341058d81" />
-" />
+<img width="1145" alt="image" src="https://github.com/user-attachments/assets/d54f2908-4738-4d92-9694-f89341058d81" />
 
 # Evaluation Metrics
 <img width="1145" alt="image" src="https://github.com/user-attachments/assets/5b729e51-45e2-4889-acda-304f05126027" />
