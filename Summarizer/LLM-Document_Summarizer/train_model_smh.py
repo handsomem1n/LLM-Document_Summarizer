@@ -46,7 +46,7 @@ def setup_model():
         BASE_MODEL,
         device_map="cuda",  # 두 번째 GPU로 할당
         quantization_config=config,
-        token="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"
+        token="secret"
     )
 
     # PEFT 설정: LoRA 어댑터 추가
